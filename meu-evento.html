@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="img/favicon.ico">
+  <title>UCAN Sport</title>
+</head>
+<body>
+
+  <!-- WIDGET MEDIA WRAP -->
+  <div id="popup-watch-video" class="widget-media-wrap popup-display popup-wrap">
+    <!-- BUTTON CLOSE -->
+    <div class="button-close violet popup-watch-video-trigger">
+      <!-- CROSS ICON -->
+      <svg class="cross-icon small">
+        <use xlink:href="#svg-cross-small"></use>
+      </svg>
+      <!-- /CROSS ICON -->
+    </div>
+    <!-- /BUTTON CLOSE -->
+
+    <!-- WIDGET MEDIA R -->
+    <div class="widget-media-r">
+      <iframe src="https://player.twitch.tv/?autoplay=false&muted=true&t=03h15m50s&video=v417077870" allowfullscreen></iframe>
+    </div>
+    <!-- /WIDGET MEDIA R -->
+  </div>
+  <!-- /WIDGET MEDIA WRAP -->
+
+  <!-- SEARCH POPUP -->
+  <div class="search-popup">
+    <!-- CROSS ICON -->
+    <svg class="cross-icon big close-button search-popup-close">
+      <use xlink:href="#svg-cross-big"></use>
+    </svg>
+    <!-- /CROSS ICON -->
+
+    <form method="GET" class="search-popup-form">
+      <input type="text" id="search" class="input-line" name="search" placeholder="O que procuras...?">
+    </form>
+    <p class="search-popup-text">Escreva o que você está procurando e pressione Enter para iniciar sua pesquisa!</p>
+  </div>
+  <!-- /SEARCH POPUP -->
+
+  <!-- MOBILE MENU WRAP -->
+  <div class="mobile-menu-wrap">
+    <!-- CROSS ICON -->
+    <svg class="cross-icon big mobile-menu-close">
+      <use xlink:href="#svg-cross-big"></use>
+    </svg>
+    <!-- /CROSS ICON -->
+
+    <!-- SEARCH POPUP OPEN -->
+    <svg class="search-popup-open search-icon">
+      <use xlink:href="#svg-search"></use>
+    </svg>
+    <!-- /SEARCH POPUP OPEN -->
+
+    <!-- LOGO IMG -->
+    <figure class="logo-img">
+      <img src="img/brand/logo.png" alt="Logo">
+    </figure>
+    <!-- /LOGO IMG -->
+
+    <!-- MOBILE MENU -->
+    <ul class="mobile-menu">
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="dashboard.html" class="mobile-menu-item-link">Início</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="meus-eventos.html" class="mobile-menu-item-link">Meus ventos</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+    </ul>
+    <!-- /MOBILE MENU -->
+  </div>
+  <!-- /MOBILE MENU WRAP -->
+
+  <!-- HEADER WRAP -->
+  <div class="header-wrap">
+    <!-- HEADER -->
+    <div class="header grid-limit">
+      <!-- WIDGET SELECTABLES -->
+      <div class="widget-selectables">
+        <!-- WIDGET OPTIONS WRAP -->
+        <div class="widget-options-wrap"> <p style="padding-top: 15px; color: white;">O melhor sistema de informação desportiva de Angola</p></div>
+        <!-- /WIDGET OPTIONS WRAP -->
+      </div>
+      <!-- /WIDGET SELECTABLES -->
+
+      <!-- WIDGET SELECTABLES -->
+      <div class="widget-selectables">
+        <!-- WIDGET OPTIONS WRAP -->
+        <div class="widget-options-wrap">
+          <!-- CURRENT OPTION -->
+          <div id="account-dropdown-trigger" class="current-option">
+            <!-- CURRENT OPTION VALUE -->
+            <div class="current-option-value">
+              <img class="widget-option-img user-avatar micro" src="img/users/05.jpg" alt="avatar-01">
+              <p class="widget-option-text">SkeBug</p>
+            </div>
+            <!-- /CURRENT OPTION VALUE -->
+
+            <!-- ARROW ICON -->
+            <svg class="arrow-icon">
+              <use xlink:href="#svg-arrow"></use>
+            </svg>
+            <!-- /ARROW ICON -->
+          </div>
+          <!-- /CURRENT OPTION -->
+
+          <!-- WIDGET OPTIONS -->
+          <div id="account-dropdown" class="widget-options short linkable">
+            <!-- WIDGET OPTION HEADING -->
+            <div class="widget-option-heading blue">
+              <a href="profile-settings.html"> 
+                <p class="widget-option-text">Detalhe da conta</p>
+              </a>
+            </div>
+          </div>
+          <!-- /WIDGET OPTIONS -->
+        </div>
+        <!-- /WIDGET OPTIONS WRAP -->
+
+        <!-- BUTTON -->
+        <a href="esports-home.html#" class="button tiny red log-button">
+            Sair
+            <!-- BUTTON ORNAMENT -->
+            <div class="button-ornament">
+              <!-- ARROW ICON -->
+              <svg class="arrow-icon">
+                <use xlink:href="#svg-arrow"></use>
+              </svg>
+              <!-- /ARROW ICON -->
+            </div>
+            <!-- /BUTTON ORNAMENT -->
+          </a>
+          <!-- /BUTTON -->
+      </div>
+      <!-- /WIDGET SELECTABLES -->
+    </div>
+    <!-- /HEADER -->
+  </div>
+  <!-- /HEADER WRAP -->
+
+  <!-- NAVIGATION WRAP -->
+  <nav class="navigation-wrap">
+    <!-- NAVIGATION -->
+    <div class="navigation grid-limit">
+      <!-- LOGO -->
+      <div class="logo">
+        <!-- LOGO IMG -->
+        <figure class="logo-img">
+          <img src="img/brand/logo.png" alt="Logo">
+        </figure>
+        <!-- /LOGO IMG -->
+
+        <!-- LOGO TEXT -->
+        <div class="logo-text">
+          <h2 class="logo-title">UCAN<span class="highlight">Sport</span></h2>
+          <p class="logo-info">As melhores informações desportivass</p>
+        </div>
+        <!-- /LOGO TEXT -->
+      </div>
+      <!-- /LOGO -->
+
+      <!-- SEARCH BUTTON -->
+      <div class="search-button search-popup-open">
+        <!-- SEARCH ICON -->
+        <svg class="search-icon">
+          <use xlink:href="#svg-search"></use>
+        </svg>
+        <!-- /SEARCH ICON -->
+      </div>
+      <!-- /SEARCH BUTTON -->
+
+      <!-- MAIN MENU -->
+      <ul class="main-menu">
+        <!-- MAIN MENU ITEM -->
+        <li class="main-menu-item">
+          <a href="dashboard.html" class="main-menu-item-link">Início</a>
+        </li>
+        <!-- /MAIN MENU ITEM -->
+
+        <!-- MAIN MENU ITEM -->
+        <li class="main-menu-item">
+          <a href="meus-eventos.html" class="main-menu-item-link">Meus Eventos</a>
+        </li>
+        <!-- /MAIN MENU ITEM -->
+      </ul>
+      <!-- /MAIN MENU -->
+    </div>
+    <!-- NAVIGATION -->
+  </nav>
+  <!-- /NAVIGATION WRAP -->
+
+  <!-- MOBILE MENU PULL -->
+  <div class="mobile-menu-pull mobile-menu-open">
+    <!-- MENU PULL ICON -->
+    <svg class="menu-pull-icon">
+      <use xlink:href="#svg-menu-pull"></use>
+    </svg>
+    <!-- /MENU PULL ICON -->
+  </div>
+  <!-- /MOBILE MENU PULL -->
+
+  <!-- BANNER WRAP -->
+  <div class="banner-wrap shop-banner">
+    <!-- BANNER -->
+    <div class="banner grid-limit">
+      <h2 class="banner-title">EUROCOPA</h2>
+      <p class="banner-sections">
+        <span class="banner-section">Dashboard</span>
+        <!-- ARROW ICON -->
+        <svg class="arrow-icon">
+          <use xlink:href="#svg-arrow"></use>
+        </svg>
+        <!-- /ARROW ICON -->
+        <span class="banner-section">Meus eventos</span>
+        <!-- ARROW ICON -->
+        <svg class="arrow-icon">
+          <use xlink:href="#svg-arrow"></use>
+        </svg>
+        <!-- /ARROW ICON -->
+        <span class="banner-section">Eurocopa</span>
+      </p>
+    </div>
+    <!-- /BANNER -->
+  </div>
+  <!-- /BANNER WRAP -->
+
+  <!-- LIVE NEWS WIDGET WRAP -->
+  <div class="live-news-widget-wrap">
+    <!-- LIVE NEWS WIDGET -->
+    <div class="live-news-widget grid-limit">
+      <!-- LIVE NEWS WIDGET STAIRS -->
+      <div class="live-news-widget-stairs left red">
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+      </div>
+      <!-- /LIVE NEWS WIDGET STAIRS -->
+
+      <!-- LIVE NEWS WIDGET STAIRS -->
+      <div class="live-news-widget-stairs right blue">
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+      </div>
+      <!-- /LIVE NEWS WIDGET STAIRS -->
+
+      <!-- LIVE NEWS WIDGET TITLE WRAP -->
+      <div class="live-news-widget-title-wrap">
+        <img class="live-news-widget-icon" src="img/icons/live-news-icon.png" alt="live-news-icon">
+        <p class="live-news-widget-title">Live News</p>
+      </div>
+      <!-- /LIVE NEWS WIDGET TITLE WRAP -->
+
+      <!-- LIVE NEWS WIDGET TEXT WRAP -->
+      <div id="lineslide-wrap1" class="live-news-widget-text-wrap">
+        <p class="live-news-widget-text"></p>
+      </div>
+      <!-- /LIVE NEWS WIDGET TEXT WRAP -->
+    </div>
+    <!-- /LIVE NEWS WIDGET -->
+  </div>
+  <!-- /LIVE NEWS WIDGET WRAP -->
+
+  <!-- LAYOUT CONTENT FULL -->
+  <div class="layout-content-full grid-limit">
+    <!-- SHOP SEARCH FORM -->
+    <form class="shop-search-form">
+      <!-- FORM ROW -->
+      <div class="form-row">
+        <!-- FORM ITEM -->
+        <div class="form-item">
+          <!-- SUBMIT INPUT -->
+          <div class="submit-input full tall violet">
+            <input type="text" id="shop_search_input" name="shop_search_input" placeholder="Que modalidade estás procurando?">
+            <button class="submit-input-button">
+              <!-- SEARCH ICON -->
+              <svg class="search-icon small">
+                <use xlink:href="#svg-search"></use>
+              </svg>
+              <!-- /SEARCH ICON -->
+            </button>
+          </div>
+          <!-- /SUBMIT INPUT -->
+        </div>
+        <!-- /FORM ITEM -->
+      </div>
+      <!-- /FORM ROW -->
+    </form>
+    <!-- /SHOP SEARCH FORM -->
+
+    <!-- LAYOUT CONTENT 5 -->
+    <div class="layout-content-5 layout-item-1-3">
+      <!-- LAYOUT SIDEBAR -->
+      <div class="layout-sidebar layout-item gutter-medium">
+
+        <!-- WIDGET SIDEBAR -->
+        <div class="widget-sidebar">
+          <!-- SECTION TITLE WRAP -->
+          <div class="section-title-wrap violet">
+            <h2 class="section-title medium">Modalidades</h2>
+            <div class="section-title-separator"></div>
+          </div>
+          <!-- /SECTION TITLE WRAP -->
+
+          <!-- CHECK RADIO LIST -->
+          <div class="check-radio-list multiple-items">
+            <!-- CHECKBOX ITEM -->
+            <div class="checkbox-item">
+              <input form="shop-filter-form" type="checkbox" id="condition_new" name="condition_new" value="new" checked>
+              <!-- CHECKBOX BOX -->
+              <div class="checkbox-box violet">
+                <!-- CROSS ICON -->
+                <svg class="cross-cb-icon small">
+                  <use xlink:href="#svg-cross-cb-small"></use>
+                </svg>
+                <!-- /CROSS ICON -->
+              </div>
+              <!-- CHECKBOX BOX -->
+              <label for="condition_new" class="rl-label">Futebol</label>
+            </div>
+            <!-- /CHECKBOX ITEM -->
+          </div>
+          <!-- /CHECK RADIO LIST -->
+        </div>
+        <!-- /WIDGET SIDEBAR -->
+      </div>
+      <!-- /LAYOUT SIDEBAR -->
+
+      <!-- LAYOUT BODY -->
+      <div class="layout-body">
+        <!-- WIDGET ITEM -->
+        <div class="widget-item">
+          <!-- SECTION TITLE WRAP -->
+          <div class="section-title-wrap violet small-space">
+            <h2 class="section-title medium">Modalidades disponíveis</h2>
+            <div class="section-title-separator"></div>
+          </div>
+          <!-- /SECTION TITLE WRAP -->
+
+          <!-- FILTER HEADING -->
+          <div class="filter-heading multiple-items bottom-spaced">
+            <!-- FILTER HEADING TEXT -->
+            <p class="filter-heading-text">Mostarndo 1 de 1 modalidade</p>
+            <!-- /FILTER HEADING TEXT -->
+
+            <!-- FILTER HEADING ACTIONS -->
+            <div class="filter-heading-actions">
+              <!-- DROPDOWN SIMPLE WRAP -->
+              <div class="dropdown-simple-wrap">
+                <!-- DP CURRENT OPTION -->
+                <div id="filter-01-dropdown-trigger" class="dp-current-option">
+                  <!-- DP CURRENT OPTION VALUE -->
+                  <div id="filter-01-dropdown-option-value" class="dp-current-option-value">
+                    <p class="dp-option-text">Mostrar 12 modalidades</p>
+                  </div>
+                  <!-- /DP CURRENT OPTION VALUE -->
+        
+                  <!-- ARROW ICON -->
+                  <svg class="arrow-icon">
+                    <use xlink:href="#svg-arrow"></use>
+                  </svg>
+                  <!-- /ARROW ICON -->
+                </div>
+                <!-- /DP CURRENT OPTION -->
+        
+                <!-- DP OPTIONS -->
+                <div id="filter-01-dropdown" class="dp-options small">
+                  <!-- DP OPTION -->
+                  <div class="dp-option">
+                    <p class="dp-option-text">Mostrar 12 modalidades</p>
+                  </div>
+                  <!-- /DP OPTION -->
+        
+                  <!-- DP OPTION -->
+                  <div class="dp-option">
+                    <p class="dp-option-text">Mostrar 24 modalidades</p>
+                  </div>
+                  <!-- /DP OPTION -->
+                </div>
+                <!-- /DP OPTIONS -->
+              </div>
+              <!-- /DROPDOWN SIMPLE WRAP -->
+
+              <!-- DROPDOWN SIMPLE WRAP -->
+              <div class="dropdown-simple-wrap">
+                <!-- DP CURRENT OPTION -->
+                <div id="filter-03-dropdown-trigger" class="dp-current-option">
+                  <!-- DP CURRENT OPTION VALUE -->
+                  <div id="filter-03-dropdown-option-value" class="dp-current-option-value">
+                    <p class="dp-option-text">Ascendente</p>
+                  </div>
+                  <!-- /DP CURRENT OPTION VALUE -->
+        
+                  <!-- ARROW ICON -->
+                  <svg class="arrow-icon">
+                    <use xlink:href="#svg-arrow"></use>
+                  </svg>
+                  <!-- /ARROW ICON -->
+                </div>
+                <!-- /DP CURRENT OPTION -->
+        
+                <!-- DP OPTIONS -->
+                <div id="filter-03-dropdown" class="dp-options small">
+                  <!-- DP OPTION -->
+                  <div class="dp-option">
+                    <p class="dp-option-text">Ascendente</p>
+                  </div>
+                  <!-- /DP OPTION -->
+        
+                  <!-- DP OPTION -->
+                  <div class="dp-option">
+                    <p class="dp-option-text">Descendente</p>
+                  </div>
+                  <!-- /DP OPTION -->
+                </div>
+                <!-- /DP OPTIONS -->
+              </div>
+              <!-- /DROPDOWN SIMPLE WRAP -->
+
+            </div>
+            <!-- /FILTER HEADING ACTIONS -->
+          </div>
+          <!-- /FILTER HEADING -->
+
+          <!-- GRID3 1COL -->
+          <div class="grid3-1col centered gutter-mid">
+            <!-- PRODUCT PREVIEW -->
+            <div class="product-preview list">
+              <!-- PRODUCT PREVIEW IMG WRAP -->
+              <div class="product-preview-img-wrap">
+                <!-- PRODUCT PREVIEW IMG -->
+                <a href="modalidade.html">
+                  <figure class="product-preview-img liquid">
+                    <img src="img/products/03.jpeg" alt="product-03">
+                  </figure>
+                </a>
+                <!-- /PRODUCT PREVIEW IMG -->
+              </div>
+              <!-- /PRODUCT PREVIEW IMG WRAP -->
+        
+              <!-- PRODUCT PREVIEW TITLE -->
+              <a href="modalidade.html" class="product-preview-title">Futebol</a>
+        
+              <!-- PRODUCT PREVIEW DESCRIPTION -->
+              <p class="product-preview-description">Veja todos resultados daquele que é o desporto rei no evento desportivo mais aclamado da Europa.</p>
+            </div>
+            <!-- /PRODUCT PREVIEW -->
+          </div>
+          <!-- /GRID3 1COL -->
+
+          <!-- PAGE NAVIGATION -->
+          <div class="page-navigation violet right spaced">
+            <!-- CONTROL PREVIOUS -->
+            <div class="slider-control big control-previous">
+              <!-- ARROW ICON -->
+              <svg class="arrow-icon medium">
+                <use xlink:href="#svg-arrow-medium"></use>
+              </svg>
+              <!-- /ARROW ICON -->
+            </div>
+            <!-- /CONTROL PREVIOUS -->
+            <a href="meu-evento.html" class="page-navigation-item">1</a>
+            <!-- CONTROL PREVIOUS -->
+            <div class="slider-control big control-next">
+              <!-- ARROW ICON -->
+              <svg class="arrow-icon medium">
+                <use xlink:href="#svg-arrow-medium"></use>
+              </svg>
+              <!-- /ARROW ICON -->
+            </div>
+            <!-- /CONTROL PREVIOUS -->
+          </div>
+          <!-- /PAGE NAVIGATION -->
+        </div>
+        <!-- /WIDGET ITEM -->
+      </div>
+      <!-- /LAYOUT BODY -->
+    </div>
+    <!-- /LAYOUT CONTENT 5 -->
+  </div>
+  <!-- LAYOUT CONTENT FULL -->
+
+  <!-- FOOTER TOP WRAP -->
+  <div class="footer-top-wrap">
+    <!-- FOOTER TOP -->
+    <div class="footer-top grid-limit">
+      <!-- FOOTER TOP BRAND -->
+      <div class="footer-top-brand">
+        <!-- LOGO -->
+        <div class="logo negative">
+          <!-- LOGO IMG -->
+          <figure class="logo-img">
+            <img src="img/brand/logo.png" alt="Logo">
+          </figure>
+          <!-- /LOGO IMG -->
+
+          <!-- LOGO TEXT -->
+          <div class="logo-text">
+            <h2 class="logo-title">UCAN<span class="highlight">Sport</span></h2>
+            <p class="logo-info">As melhores informações desportivas</p>
+          </div>
+          <!-- /LOGO TEXT -->
+        </div>
+        <!-- /LOGO -->
+
+        <!-- SPONSORS SLIDER WRAP -->
+        <div class="sponsors-slider-wrap">
+          <!-- SPONSORS SLIDER CONTROLS -->
+          <div id="footer-sponsor-slider-controls" class="sponsors-slider-controls">
+            <div class="sponsors-slider-control control-previous">
+              <!-- ARROW ICON -->
+              <svg class="arrow-icon medium">
+                <use xlink:href="#svg-arrow-medium"></use>
+              </svg>
+              <!-- /ARROW ICON -->
+            </div>
+            <div class="sponsors-slider-control control-next">
+              <!-- ARROW ICON -->
+              <svg class="arrow-icon medium">
+                <use xlink:href="#svg-arrow-medium"></use>
+              </svg>
+              <!-- /ARROW ICON -->
+            </div>
+          </div>
+          <!-- /SPONSORS SLIDER CONTROLS -->
+
+          <!-- SPONSORS SLIDER -->
+          <div id="footer-sponsor-slider" class="sponsors-slider">
+            <!-- SPONSORS SLIDER ITEMS -->
+            <div class="sponsors-slider-items">
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor01.png" alt="sponsor01">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor02.png" alt="sponsor02">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor03.png" alt="sponsor03">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor04.png" alt="sponsor04">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor05.png" alt="sponsor05">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor06.png" alt="sponsor06">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+            </div>
+            <!-- /SPONSORS SLIDER ITEMS -->
+          </div>
+          <!-- /SPONSORS SLIDER -->
+        </div>
+        <!-- /SPONSORS SLIDER WRAP -->
+
+        <!-- SOCIAL LINKS -->
+        <div class="social-links">
+          <!-- BUBBLE ORNAMENT -->
+          <a href="esports-home.html#" class="bubble-ornament fb">
+            <!-- FACEBOOK ICON -->
+            <svg class="facebook-icon">
+              <use xlink:href="#svg-facebook"></use>
+            </svg>
+            <!-- /FACEBOOK ICON -->
+          </a>
+          <!-- /BUBBLE ORNAMENT -->
+
+          <!-- BUBBLE ORNAMENT -->
+          <a href="esports-home.html#" class="bubble-ornament twt">
+            <!-- TWITTER ICON -->
+            <svg class="twitter-icon">
+              <use xlink:href="#svg-twitter"></use>
+            </svg>
+            <!-- /TWITTER ICON -->
+          </a>
+          <!-- /BUBBLE ORNAMENT -->
+
+          <!-- BUBBLE ORNAMENT -->
+          <a href="esports-home.html#" class="bubble-ornament insta">
+            <!-- INSTAGRAM ICON -->
+            <svg class="instagram-icon">
+              <use xlink:href="#svg-instagram"></use>
+            </svg>
+            <!-- /INSTAGRAM ICON -->
+          </a>
+          <!-- /BUBBLE ORNAMENT -->
+          
+        </div>
+        <!-- /SOCIAL LINKS -->
+      </div>
+      <!-- /FOOTER TOP BRAND -->
+
+      <!-- LINE SEPARATOR -->
+      <div class="line-separator negative"></div>
+
+    </div>
+    <!-- /FOOTER TOP -->
+  </div>
+  <!-- /FOOTER TOP WRAP -->
+
+  <!-- FOOTER BOTTOM WRAP -->
+  <div class="footer-bottom-wrap">
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom grid-limit">
+      <p class="footer-bottom-text"><span class="brand"><span class="highlighted">UCAN</span> Sport</span><span class="separator">|</span>Todos direiros reservados 2021</p>
+      <p class="footer-bottom-text"><a href="esports-home.html#">Termos e condições</a><span class="separator">|</span><a href="esports-home.html#">Política de privacidade</a></p>
+    </div>
+    <!-- /FOOTER BOTTOM -->
+  </div>
+  <!-- /FOOTER BOTTOM WRAP -->
+
+<!-- app bundle -->
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="app.bundle.min.js"></script>
+</body>
+</html>

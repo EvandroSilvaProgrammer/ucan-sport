@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- favicon -->
+  <link rel="icon" href="img/favicon.ico">
+  <title>UCAN Sport</title>
+</head>
+<body>
+
+  <!-- WIDGET MEDIA WRAP -->
+  <div id="popup-watch-video" class="widget-media-wrap popup-display popup-wrap">
+    <!-- BUTTON CLOSE -->
+    <div class="button-close violet popup-watch-video-trigger">
+      <!-- CROSS ICON -->
+      <svg class="cross-icon small">
+        <use xlink:href="#svg-cross-small"></use>
+      </svg>
+      <!-- /CROSS ICON -->
+    </div>
+    <!-- /BUTTON CLOSE -->
+
+    <!-- WIDGET MEDIA R -->
+    <div class="widget-media-r">
+      <iframe src="https://player.twitch.tv/?autoplay=false&muted=true&t=03h15m50s&video=v417077870" allowfullscreen></iframe>
+    </div>
+    <!-- /WIDGET MEDIA R -->
+  </div>
+  <!-- /WIDGET MEDIA WRAP -->
+
+  <!-- SEARCH POPUP -->
+  <div class="search-popup">
+    <!-- CROSS ICON -->
+    <svg class="cross-icon big close-button search-popup-close">
+      <use xlink:href="#svg-cross-big"></use>
+    </svg>
+    <!-- /CROSS ICON -->
+
+    <form method="GET" class="search-popup-form">
+      <input type="text" id="search" class="input-line" name="search" placeholder="O que procuras...?">
+    </form>
+    <p class="search-popup-text">Escreva o que você está procurando e pressione Enter para iniciar sua pesquisa!</p>
+  </div>
+  <!-- /SEARCH POPUP -->
+
+  <!-- MOBILE MENU WRAP -->
+  <div class="mobile-menu-wrap">
+    <!-- CROSS ICON -->
+    <svg class="cross-icon big mobile-menu-close">
+      <use xlink:href="#svg-cross-big"></use>
+    </svg>
+    <!-- /CROSS ICON -->
+
+    <!-- SEARCH POPUP OPEN -->
+    <svg class="search-popup-open search-icon">
+      <use xlink:href="#svg-search"></use>
+    </svg>
+    <!-- /SEARCH POPUP OPEN -->
+
+    <!-- LOGO IMG -->
+    <figure class="logo-img">
+      <img src="img/brand/logo.png" alt="Logo">
+    </figure>
+    <!-- /LOGO IMG -->
+
+    <!-- MOBILE MENU -->
+    <ul class="mobile-menu">
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="dashboard.html" class="mobile-menu-item-link">Início</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+      <!-- MOBILE MENU ITEM -->
+      <li class="mobile-menu-item">
+        <a href="meus-eventos.html" class="mobile-menu-item-link">Meus ventos</a>
+      </li>
+      <!-- /MOBILE MENU ITEM -->
+
+    </ul>
+    <!-- /MOBILE MENU -->
+  </div>
+  <!-- /MOBILE MENU WRAP -->
+
+  <!-- HEADER WRAP -->
+  <div class="header-wrap">
+    <!-- HEADER -->
+    <div class="header grid-limit">
+      <!-- WIDGET SELECTABLES -->
+      <div class="widget-selectables">
+        <!-- WIDGET OPTIONS WRAP -->
+        <div class="widget-options-wrap"> <p style="padding-top: 15px; color: white;">O melhor sistema de informação desportiva de Angola</p></div>
+        <!-- /WIDGET OPTIONS WRAP -->
+      </div>
+      <!-- /WIDGET SELECTABLES -->
+
+      <!-- WIDGET SELECTABLES -->
+      <div class="widget-selectables">
+        <!-- WIDGET OPTIONS WRAP -->
+        <div class="widget-options-wrap">
+          <!-- CURRENT OPTION -->
+          <div id="account-dropdown-trigger" class="current-option">
+            <!-- CURRENT OPTION VALUE -->
+            <div class="current-option-value">
+              <img class="widget-option-img user-avatar micro" src="img/users/profile-avatar.jpeg" alt="avatar-01">
+              <p class="widget-option-text">SkeBug</p>
+            </div>
+            <!-- /CURRENT OPTION VALUE -->
+
+            <!-- ARROW ICON -->
+            <svg class="arrow-icon">
+              <use xlink:href="#svg-arrow"></use>
+            </svg>
+            <!-- /ARROW ICON -->
+          </div>
+          <!-- /CURRENT OPTION -->
+
+          <!-- WIDGET OPTIONS -->
+          <div id="account-dropdown" class="widget-options short linkable">
+            <!-- WIDGET OPTION HEADING -->
+            <div class="widget-option-heading blue">
+              <a href="profile-settings.html"> 
+                <p class="widget-option-text">Detalhe da conta</p>
+              </a>
+            </div>
+          </div>
+          <!-- /WIDGET OPTIONS -->
+        </div>
+        <!-- /WIDGET OPTIONS WRAP -->
+
+        <!-- BUTTON -->
+        <a href="login-register.html" class="button tiny red log-button">
+            Sair
+            <!-- BUTTON ORNAMENT -->
+            <div class="button-ornament">
+              <!-- ARROW ICON -->
+              <svg class="arrow-icon">
+                <use xlink:href="#svg-arrow"></use>
+              </svg>
+              <!-- /ARROW ICON -->
+            </div>
+            <!-- /BUTTON ORNAMENT -->
+          </a>
+          <!-- /BUTTON -->
+      </div>
+      <!-- /WIDGET SELECTABLES -->
+    </div>
+    <!-- /HEADER -->
+  </div>
+  <!-- /HEADER WRAP -->
+
+  <!-- NAVIGATION WRAP -->
+  <nav class="navigation-wrap">
+    <!-- NAVIGATION -->
+    <div class="navigation grid-limit">
+      <!-- LOGO -->
+      <div class="logo">
+        <!-- LOGO IMG -->
+        <figure class="logo-img">
+          <img src="img/brand/logo.png" alt="Logo">
+        </figure>
+        <!-- /LOGO IMG -->
+
+        <!-- LOGO TEXT -->
+        <div class="logo-text">
+          <h2 class="logo-title">UCAN<span class="highlight">Sport</span></h2>
+          <p class="logo-info">As melhores informações desportivass</p>
+        </div>
+        <!-- /LOGO TEXT -->
+      </div>
+      <!-- /LOGO -->
+
+      <!-- SEARCH BUTTON -->
+      <div class="search-button search-popup-open">
+        <!-- SEARCH ICON -->
+        <svg class="search-icon">
+          <use xlink:href="#svg-search"></use>
+        </svg>
+        <!-- /SEARCH ICON -->
+      </div>
+      <!-- /SEARCH BUTTON -->
+
+      <!-- MAIN MENU -->
+      <ul class="main-menu">
+        <!-- MAIN MENU ITEM -->
+        <li class="main-menu-item">
+          <a href="dashboard.html" class="main-menu-item-link">Início</a>
+        </li>
+        <!-- /MAIN MENU ITEM -->
+
+        <!-- MAIN MENU ITEM -->
+        <li class="main-menu-item">
+          <a href="meus-eventos.html" class="main-menu-item-link">Meus Eventos</a>
+        </li>
+        <!-- /MAIN MENU ITEM -->
+      </ul>
+      <!-- /MAIN MENU -->
+    </div>
+    <!-- NAVIGATION -->
+  </nav>
+  <!-- /NAVIGATION WRAP -->
+
+  <!-- MOBILE MENU PULL -->
+  <div class="mobile-menu-pull mobile-menu-open">
+    <!-- MENU PULL ICON -->
+    <svg class="menu-pull-icon">
+      <use xlink:href="#svg-menu-pull"></use>
+    </svg>
+    <!-- /MENU PULL ICON -->
+  </div>
+  <!-- /MOBILE MENU PULL -->
+
+  <!-- BANNER WRAP -->
+  <div class="banner-wrap forum-banner">
+    <!-- BANNER -->
+    <div class="banner grid-limit">
+      <h2 class="banner-title">Perfil</h2>
+      <p class="banner-sections">
+        <span class="banner-section">SkeBug</span>
+      </p>
+    </div>
+    <!-- /BANNER -->
+  </div>
+  <!-- /BANNER WRAP -->
+
+  <!-- LIVE NEWS WIDGET WRAP -->
+  <div class="live-news-widget-wrap">
+    <!-- LIVE NEWS WIDGET -->
+    <div class="live-news-widget grid-limit">
+      <!-- LIVE NEWS WIDGET STAIRS -->
+      <div class="live-news-widget-stairs left red">
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+      </div>
+      <!-- /LIVE NEWS WIDGET STAIRS -->
+
+      <!-- LIVE NEWS WIDGET STAIRS -->
+      <div class="live-news-widget-stairs right blue">
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+        <div class="live-news-widget-stair"></div>
+      </div>
+      <!-- /LIVE NEWS WIDGET STAIRS -->
+
+      <!-- LIVE NEWS WIDGET TITLE WRAP -->
+      <div class="live-news-widget-title-wrap">
+        <img class="live-news-widget-icon" src="img/icons/live-news-icon.png" alt="live-news-icon">
+        <p class="live-news-widget-title">Ao Vivo</p>
+      </div>
+      <!-- /LIVE NEWS WIDGET TITLE WRAP -->
+
+      <!-- LIVE NEWS WIDGET TEXT WRAP -->
+      <div id="lineslide-wrap1" class="live-news-widget-text-wrap">
+        <p class="live-news-widget-text"></p>
+      </div>
+      <!-- /LIVE NEWS WIDGET TEXT WRAP -->
+    </div>
+    <!-- /LIVE NEWS WIDGET -->
+  </div>
+  <!-- /LIVE NEWS WIDGET WRAP -->
+
+  <!-- LAYOUT CONTENT 4 -->
+  <div class="layout-content-4 layout-item-1-3 grid-limit">
+    <!-- LAYOUT SIDEBAR -->
+    <div class="layout-sidebar">
+      <!-- ACCOUNT INFO WRAP -->
+      <div class="account-info-wrap">
+        <!-- USER AVATAR -->
+        <img class="user-avatar big" src="img/users/profile-avatar.jpeg" alt="user-05">
+        <!-- /USER AVATAR -->
+
+        <!-- ACCOUNT INFO USERNAME -->
+        <p class="account-info-username">Skebug</p>
+        <!-- /ACCOUNT INFO USERNAME -->
+
+        <!-- ACCOUNT INFO NAME -->
+        <p class="account-info-name">Evandro Silva</p>
+        <!-- /ACCOUNT INFO NAME -->
+
+        <!-- DROPDOWN LIST -->
+        <ul class="dropdown-list void">
+          <!-- DROPDOWN LIST ITEM -->
+          <li class="dropdown-list-item active">
+            <a href="account-settings.html" class="dropdown-list-item-link">Definições de Conta</a>
+          </li>
+          <!-- /DROPDOWN LIST ITEM -->
+  
+          <!-- DROPDOWN LIST ITEM -->
+          
+          <!-- /DROPDOWN LIST ITEM -->
+        </ul>
+        <!-- /DROPDOWN LIST -->
+      </div>
+      <!-- /ACCOUNT INFO WRAP -->
+    </div>
+    <!-- /LAYOUT SIDEBAR -->
+
+    <!-- LAYOUT BODY -->
+    <div class="layout-body">
+      <!-- SECTION TITLE WRAP -->
+      <div class="section-title-wrap blue">
+        <h2 class="section-title medium">Definições de Conta</h2>
+        <div class="section-title-separator"></div>
+      </div>
+      <!-- /SECTION TITLE WRAP -->
+
+      <!-- ACCOUNT SETTINGS FORM -->
+      <form class="account-settings-form">
+        <!-- FORM ROW -->
+        <div class="form-row">
+          <!-- FORM ITEM -->
+          <div class="form-item half blue">
+            <label for="as_first_name" class="rl-label">Primeiro Nome</label>
+            <input type="text" id="as_first_name" name="as_first_name" placeholder="Primeiro Nome..." value="Evandro">
+          </div>
+          <!-- /FORM ITEM -->
+
+          <!-- FORM ITEM -->
+          <div class="form-item half blue">
+            <label for="as_last_name" class="rl-label">Último Nome</label>
+            <input type="text" id="as_last_name" name="as_last_name" placeholder="Último Nome..." value="Silva">
+          </div>
+          <!-- /FORM ITEM -->
+        </div>
+        <!-- /FORM ROW -->
+
+        <!-- FORM ROW -->
+        <div class="form-row">
+          <!-- FORM ITEM -->
+          <div class="form-item blue">
+            <label for="as_username" class="rl-label">Nome de Utilizador</label>
+            <input type="text" id="as_username" name="as_username" placeholder="Nome de Utilizador..." value="Skebug">
+            <!-- FORM ITEM MESSAGE -->
+            <p class="form-item-message">As pessoas podem mencionar-te como <span class="highlight">@Skebug</span></p>
+            <!-- /FORM ITEM MESSAGE -->
+          </div>
+          <!-- /FORM ITEM -->
+        </div>
+        <!-- /FORM ROW -->
+
+        <!-- FORM ROW -->
+        <div class="form-row">
+          <!-- FORM ITEM -->
+          <div class="form-item blue">
+            <label for="as_email" class="rl-label">Email</label>
+            <input type="text" id="as_email" name="as_email" placeholder="Introduza aqui o seu Email..." value="evandrosilva.ucan@gmail.com">
+            <!-- FORM ITEM MESSAGE -->
+            <p class="form-item-message">Esta informação não será mostrada ao público</p>
+            <!-- /FORM ITEM MESSAGE -->
+          </div>
+          <!-- /FORM ITEM -->
+        </div>
+        <!-- /FORM ROW -->
+
+        <!-- FORM ROW -->
+        <div class="form-row">
+          <!-- FORM ITEM -->
+          <div class="form-item half blue">
+            <label for="as_pwd" class="rl-label">Alterar Palavra-Passe</label>
+            <input type="password" id="as_pwd" name="as_pwd" placeholder="Introduza a Nova Palavra-Passe...">
+          </div>
+          <!-- /FORM ITEM -->
+
+          <!-- FORM ITEM -->
+          <div class="form-item half blue">
+            <label for="as_pwd_repeat" class="rl-label">Confirmar Palavra-Passe</label>
+            <input type="password" id="as_pwd_repeat" name="as_pwd_repeat" placeholder="Confirme a Nova Palavra-Passe...">
+          </div>
+          <!-- /FORM ITEM -->
+        </div>
+        <!-- /FORM ROW -->
+
+        <div class="form-row">
+          <!-- FORM ITEM -->
+          <div class="form-item half blue">
+            <label for="as_first_name" class="rl-label">Alterar Método de Pagamento</label> <br>
+            <div class="checkbox-item">
+              <input type="checkbox" id="login_remember_ep" name="login_remember_ep" value="remember_ep" checked>
+              <!-- CHECKBOX BOX -->
+              <div class="checkbox-box blue">
+                <!-- CROSS ICON -->
+                <svg class="cross-cb-icon small">
+                  <use xlink:href="#svg-cross-cb-small"></use>
+                </svg>
+                <!-- /CROSS ICON -->
+              </div>
+              <!-- CHECKBOX BOX -->
+              <label for="login_remember_ep" class="rl-label">Pagamento por transferência</label>
+            </div> <br>
+
+            <div class="checkbox-item">
+              <input type="checkbox" id="login_remember_ep" name="login_remember_ep" value="remember_ep" aria-checked="false" >
+              <!-- CHECKBOX BOX -->
+              <div class="checkbox-box blue">
+                <!-- CROSS ICON -->
+                <svg class="cross-cb-icon small">
+                  <use xlink:href="#svg-cross-cb-small"></use>
+                </svg>
+                <!-- /CROSS ICON -->
+              </div>
+              <!-- CHECKBOX BOX -->
+              <label for="login_remember_ep" class="rl-label">Cartão Pré-Pago</label>
+            </div> <br>
+
+            <div class="checkbox-item">
+              <input type="checkbox" id="login_remember_ep" name="login_remember_ep" value="remember_ep" >
+              <!-- CHECKBOX BOX -->
+              <div class="checkbox-box blue">
+                <!-- CROSS ICON -->
+                <svg class="cross-cb-icon small">
+                  <use xlink:href="#svg-cross-cb-small"></use>
+                </svg>
+                <!-- /CROSS ICON -->
+              </div>
+              <!-- CHECKBOX BOX -->
+              <label for="login_remember_ep" class="rl-label">Conta Mensal</label>
+            </div>
+
+          </div>
+          <!-- /FORM ITEM -->
+
+          <!-- FORM ITEM -->
+          <div class="form-item half blue">
+            <label for="as_first_name" class="rl-label">Modalidades Favoritas</label> <br>
+            <div class="checkbox-item">
+              <input type="checkbox" id="login_remember_ep" name="login_remember_ep" value="remember_ep" checked>
+              <!-- CHECKBOX BOX -->
+              <div class="checkbox-box blue">
+                <!-- CROSS ICON -->
+                <svg class="cross-cb-icon small">
+                  <use xlink:href="#svg-cross-cb-small"></use>
+                </svg>
+                <!-- /CROSS ICON -->
+              </div>
+              <!-- CHECKBOX BOX -->
+              <label for="login_remember_ep" class="rl-label">Futebol</label>
+            </div> <br>
+
+            <div class="checkbox-item">
+              <input type="checkbox" id="login_remember_ep" name="login_remember_ep" value="remember_ep" aria-checked="false" >
+              <!-- CHECKBOX BOX -->
+              <div class="checkbox-box blue">
+                <!-- CROSS ICON -->
+                <svg class="cross-cb-icon small">
+                  <use xlink:href="#svg-cross-cb-small"></use>
+                </svg>
+                <!-- /CROSS ICON -->
+              </div>
+              <!-- CHECKBOX BOX -->
+              <label for="login_remember_ep" class="rl-label">Voleibol</label>
+            </div> <br>
+
+            <div class="checkbox-item">
+              <input type="checkbox" id="login_remember_ep" name="login_remember_ep" value="remember_ep" >
+              <!-- CHECKBOX BOX -->
+              <div class="checkbox-box blue">
+                <!-- CROSS ICON -->
+                <svg class="cross-cb-icon small">
+                  <use xlink:href="#svg-cross-cb-small"></use>
+                </svg>
+                <!-- /CROSS ICON -->
+              </div>
+              <!-- CHECKBOX BOX -->
+              <label for="login_remember_ep" class="rl-label">Automobilismo</label>
+            </div> <br>
+
+            <div class="checkbox-item">
+              <input type="checkbox" id="login_remember_ep" name="login_remember_ep" value="remember_ep" >
+              <!-- CHECKBOX BOX -->
+              <div class="checkbox-box blue">
+                <!-- CROSS ICON -->
+                <svg class="cross-cb-icon small">
+                  <use xlink:href="#svg-cross-cb-small"></use>
+                </svg>
+                <!-- /CROSS ICON -->
+              </div>
+              <!-- CHECKBOX BOX -->
+              <label for="login_remember_ep" class="rl-label">Tênis</label>
+            </div>
+
+          </div>
+          
+          <!-- /FORM ITEM -->
+        </div>
+
+        <!-- FORM ROW -->
+        <div class="form-row">
+          <!-- FORM ITEM -->
+          <div class="form-item">
+            <label class="rl-label">Foto de Perfil</label>
+            <!-- AVATAR CHANGE -->
+            <div class="avatar-change">
+              <!-- USER AVATAR -->
+              <img class="user-avatar big" src="img/users/profile-avatar.jpeg" alt="user-05">
+              <!-- /USER AVATAR -->
+
+              <!-- AVATAR CHANGE ACTION -->
+              <div class="avatar-change-action bubble-ornament blue">
+                <!-- PLUS CC 2 ICON -->
+                <svg class="plus-cc-2-icon medium">
+                  <use xlink:href="#svg-plus-cc-2"></use>
+                </svg>
+                <!-- /PLUS CC 2 ICON -->
+              </div>
+              <!-- /AVATAR CHANGE ACTION -->
+            </div>
+            <!-- /AVATAR CHANGE -->
+
+            <!-- FORM ITEM MESSAGE -->
+            <p class="form-item-message">100x100PX resolução máxima</p>
+            <!-- /FORM ITEM MESSAGE -->
+          </div>
+          <!-- /FORM ITEM -->
+        </div>
+        <!-- /FORM ROW -->
+
+        <!-- SUBMIT BUTTON WRAP -->
+        <div class="submit-button-wrap">
+          <!-- BUTTON -->
+          <button class="button blue">
+            Guardar Alterações
+            <!-- BUTTON ORNAMENT -->
+            <span class="button-ornament">
+              <!-- ARROW ICON -->
+              <svg class="arrow-icon medium">
+                <use xlink:href="#svg-arrow-medium"></use>
+              </svg>
+              <!-- /ARROW ICON -->
+
+              <!-- CROSS ICON -->
+              <svg class="cross-icon small">
+                <use xlink:href="#svg-cross-small"></use>
+              </svg>
+              <!-- /CROSS ICON -->
+            </span>
+            <!-- /BUTTON ORNAMENT -->
+          </button>
+          <!-- /BUTTON -->
+        </div>
+        <!-- /SUBMIT BUTTON WRAP -->
+      </form>
+      <!-- /ACCOUNT SETTINGS FORM -->
+    </div>
+    <!-- /LAYOUT BODY -->
+  </div>
+  <!-- LAYOUT CONTENT 4 -->
+
+  <!-- FOOTER TOP WRAP -->
+  <div class="footer-top-wrap">
+    <!-- FOOTER TOP -->
+    <div class="footer-top grid-limit">
+      <!-- FOOTER TOP BRAND -->
+      <div class="footer-top-brand">
+        <!-- LOGO -->
+        <div class="logo negative">
+          <!-- LOGO IMG -->
+          <figure class="logo-img">
+            <img src="img/brand/logo.png" alt="Logo">
+          </figure>
+          <!-- /LOGO IMG -->
+
+          <!-- LOGO TEXT -->
+          <div class="logo-text">
+            <h2 class="logo-title">UCAN<span class="highlight">Sport</span></h2>
+            <p class="logo-info">As melhores informações desportivas</p>
+          </div>
+          <!-- /LOGO TEXT -->
+        </div>
+        <!-- /LOGO -->
+
+        <!-- SPONSORS SLIDER WRAP -->
+        <div class="sponsors-slider-wrap">
+          <!-- SPONSORS SLIDER CONTROLS -->
+          <div id="footer-sponsor-slider-controls" class="sponsors-slider-controls">
+            <div class="sponsors-slider-control control-previous">
+              <!-- ARROW ICON -->
+              <svg class="arrow-icon medium">
+                <use xlink:href="#svg-arrow-medium"></use>
+              </svg>
+              <!-- /ARROW ICON -->
+            </div>
+            <div class="sponsors-slider-control control-next">
+              <!-- ARROW ICON -->
+              <svg class="arrow-icon medium">
+                <use xlink:href="#svg-arrow-medium"></use>
+              </svg>
+              <!-- /ARROW ICON -->
+            </div>
+          </div>
+          <!-- /SPONSORS SLIDER CONTROLS -->
+
+          <!-- SPONSORS SLIDER -->
+          <div id="footer-sponsor-slider" class="sponsors-slider">
+            <!-- SPONSORS SLIDER ITEMS -->
+            <div class="sponsors-slider-items">
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor01.png" alt="sponsor01">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor02.png" alt="sponsor02">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor03.png" alt="sponsor03">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor04.png" alt="sponsor04">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor05.png" alt="sponsor05">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+
+              <!-- SPONSORS SLIDER ITEM -->
+              <div class="sponsors-slider-item">
+                <img class="sponsor-img" src="img/sponsors/sponsor06.png" alt="sponsor06">
+              </div>
+              <!-- /SPONSORS SLIDER ITEM -->
+            </div>
+            <!-- /SPONSORS SLIDER ITEMS -->
+          </div>
+          <!-- /SPONSORS SLIDER -->
+        </div>
+        <!-- /SPONSORS SLIDER WRAP -->
+
+        <!-- SOCIAL LINKS -->
+        <div class="social-links">
+          <!-- BUBBLE ORNAMENT -->
+          <a href="esports-home.html#" class="bubble-ornament fb">
+            <!-- FACEBOOK ICON -->
+            <svg class="facebook-icon">
+              <use xlink:href="#svg-facebook"></use>
+            </svg>
+            <!-- /FACEBOOK ICON -->
+          </a>
+          <!-- /BUBBLE ORNAMENT -->
+
+          <!-- BUBBLE ORNAMENT -->
+          <a href="esports-home.html#" class="bubble-ornament twt">
+            <!-- TWITTER ICON -->
+            <svg class="twitter-icon">
+              <use xlink:href="#svg-twitter"></use>
+            </svg>
+            <!-- /TWITTER ICON -->
+          </a>
+          <!-- /BUBBLE ORNAMENT -->
+
+          <!-- BUBBLE ORNAMENT -->
+          <a href="esports-home.html#" class="bubble-ornament insta">
+            <!-- INSTAGRAM ICON -->
+            <svg class="instagram-icon">
+              <use xlink:href="#svg-instagram"></use>
+            </svg>
+            <!-- /INSTAGRAM ICON -->
+          </a>
+          <!-- /BUBBLE ORNAMENT -->
+          
+        </div>
+        <!-- /SOCIAL LINKS -->
+      </div>
+      <!-- /FOOTER TOP BRAND -->
+
+      <!-- LINE SEPARATOR -->
+      <div class="line-separator negative"></div>
+
+    </div>
+    <!-- /FOOTER TOP -->
+  </div>
+  <!-- /FOOTER TOP WRAP -->
+
+  <!-- FOOTER BOTTOM WRAP -->
+  <div class="footer-bottom-wrap">
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom grid-limit">
+      <p class="footer-bottom-text"><span class="brand"><span class="highlighted">UCAN</span> Sport</span><span class="separator">|</span>Todos direiros reservados 2021</p>
+      <p class="footer-bottom-text"><a href="esports-home.html#">Termos e condições</a><span class="separator">|</span><a href="esports-home.html#">Política de privacidade</a></p>
+    </div>
+    <!-- /FOOTER BOTTOM -->
+  </div>
+  <!-- /FOOTER BOTTOM WRAP -->
+
+<!-- app bundle -->
+<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="app.bundle.min.js"></script>
+</body>
+</html>
